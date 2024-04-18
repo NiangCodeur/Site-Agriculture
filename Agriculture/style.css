@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+nav {
+  background: #03f8c3;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.text h1 {
+  font-size: 75px;
+  font-weight: 600;
+  color: #03f8c3;
+}
+.text button {
+  width: 250px;
+  height: 60px;
+  background: #03f8c3;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+  font-size: 20px;
+}
+/* --------------section produit---------- */
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.title span {
+  color: #03f8c3;
+}
+
+.container img {
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.container p {
+  text-align: center;
+}
+/* ---------section-contact---------- */
+#contact {
+  max-width: 1080px;
+  position: absolute;
+  left: 20%;
+  margin-top: 20px;
+}
+.container-form {
+  position: relative;
+  width: 740px;
+  height: 420px;
+  background: transparent;
+  border: 2px solid #03f8c3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.content-form {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-form h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+.content-form hr {
+  width: 80px;
+  height: 6px;
+  background: #03f8c3;
+  border-radius: 25px;
+  margin-left: 39%;
+  margin-top: 10px;
+  border: 0;
+}
+.box {
+  width: 100%;
+  height: 60px;
+  margin: 10px;
+}
+.box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #03f8c3;
+  font-size: 18px;
+}
+::placeholder {
+  font-size: 18px;
+}
+.btn-form {
+  width: 100%;
+  height: 50px;
+  background: #03f8c3;
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 40px;
+  margin: 30px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-form:hover {
+  background: #03f8c3;
+}
+/* ---------------- */
+.text-form {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 90px;
+}
+.text-form h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text-form p {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.drop {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0;
+  right: 0;
+  background: #03f8c3;
+  transform: rotate(12deg) skewY(40deg);
+  transform-origin: bottom right;
+}
